@@ -1,5 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Input from "./components/input.jsx"
+import Live from "./components/live.jsx"
 
-ReactDOM.render(<Input />, document.getElementById("body"));
+ReactDOM.render(<Live />, document.getElementById("body"));

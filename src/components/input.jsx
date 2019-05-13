@@ -22,7 +22,7 @@ export default class Input extends React.Component {
     render() {
         return (
             <div className="input">
-                <h2>{this.state.result}</h2>
+                <h2>{(this.props.direct) ?  this.state.result : this.state.value}</h2>
                 <label htmlFor="input">Texte</label>
                 <input type="text" name="input" value={this.state.value} onChange={this.handleChange} onKeyPress={this.handleSubmit}/>
                 <div className="center-align">
